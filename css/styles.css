@@ -5,7 +5,7 @@
 }
 /* Студия */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--main-color);
 }
 ul {
@@ -17,7 +17,7 @@ a {
 }
 /* Логотип */
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -125,21 +125,24 @@ a {
 .address {
   font-style: normal;
 }
-.footer > .footer-logo {
+.footer .logo-color {
   color: #ffffff;
 }
 .footer {
   background-color: #2f303a;
 }
-.footer-logo,
-.address,
-.map-link:hover {
+.address:hover {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.map-link {
+  color: #ffffff;
+}
+
 .address,
 .contacts {
   color: var(--second-color);
