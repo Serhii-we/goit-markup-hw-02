@@ -30,26 +30,19 @@ button{
   color: var(--hover-color);
 }
 /* Навигация */
-.studio-link {
-  color: var(--hover-color);
-}
-.site-nav,
-.nav-link,
-.contacts,
-.contacts-link {
+.site-nav
+.nav-link
+.contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .site-nav .nav-link:hover,
-.contacts .contacts-link:hover,
+.site-nav .contacts:hover,
 .site-nav .nav-link:focus,
-.contacts .contacts-link:focus {
+.site-nav .contacts:focus {
   color: var(--hover-color);
-}
-.contacts {
-  color: var(--second-color);
 }
 /* Герой */
 .hero {
@@ -70,11 +63,12 @@ button{
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  box-shadow: rgba (0 0 0 0.15);
 }
 /* Особенности */
 .features,
 .features-title {
-  font-style: normal;
+  font-style: 400;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -126,7 +120,7 @@ button{
 /* Футер */
 /* Адресс */
 .address {
-  font-style: normal;
+  font-style: 400;
 }
 .footer .logo-color {
   color: #ffffff;
@@ -145,7 +139,6 @@ button{
 .map-link {
   color: #ffffff;
 }
-
 .address,
 .contacts {
   color: var(--second-color);
@@ -157,6 +150,7 @@ button{
 .address,
 .contacts:hover {
   color: var(--hover-color);
+  color: rgba (255 255 255 0.6)
 }
 /* Портфолио */
 /* Навигация */
@@ -176,7 +170,7 @@ button{
   background-color: var(--hover-color);
 }
 .portfolio .portfolio-title {
-  font-style: normal;
+  font-style: 400;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
