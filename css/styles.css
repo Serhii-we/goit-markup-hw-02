@@ -73,10 +73,6 @@ ul {
 .logo-link > span {
   color: var(--hover-color);
 }
-/* Навигация .navigation{
-display: flex;
-align-items: center;
-}*/
 .navigation {
   display: flex;
   align-items: center;
@@ -313,8 +309,21 @@ footer .logo-link-two > span {
 }
 /* Портфолио */
 /* Навигация */
+.portfolio {
+  padding-bottom: 50px;
+}
+.portfolio-container {
+  display: flex;
+  text-decoration: row;
+
+}
 .portfolio-link {
   color: var(--hover-color);
+}
+.btn-list {
+  display: flex;
+  align-items: flex-start;
+ 
 }
 /* Уникальный Контент */
 .portfolio
