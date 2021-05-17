@@ -36,17 +36,17 @@ button{
 .site-nav
 .nav-link,
 .contacts {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-color);
 }
-.site-nav .nav-link:hover,
-.site-nav .contacts:hover,
-.site-nav .nav-link:focus,
-.site-nav .contacts:focus {
+.site-nav 
+.nav-link:hover, 
+.nav-link:focus,
+.contacts:hover,
+.contacts:focus {
   color: var(--hover-color);
 }
 /* Герой */
@@ -136,32 +136,32 @@ button{
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
 .map-link {
   color: var(--withe-color);
 }
-.address
-.contacts {
-  color: var(--second-color);
+.address {
+  font-style: normal;
+}
+.address,
+.contacts-two {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba( 255, 255, 255, 0.6 );
 }
 .address
-.contacts:hover {
+.contacts-two:hover {
+  color: var(--second-color);
   color: var(--hover-color);
-  color: rgba(255 255 255 0.6);
 }
 /* Портфолио */
-/* Навигация */
 .portfolio-link {
   color: var(--hover-color);
 }
 /* Уникальный Контент */
 .portfolio,
 .btn-filter {
-  background-color: var(--new-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
