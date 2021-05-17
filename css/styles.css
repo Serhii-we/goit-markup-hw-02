@@ -2,6 +2,9 @@
   --main-color: #212121;
   --second-color: #757575;
   --hover-color: #2196f3;
+  --withe-color:#ffffff;
+  --end-color: #2f303a;;
+  --new-color:#f5f4fa;
 }
 /* Студия */
 body {
@@ -31,12 +34,14 @@ button{
 }
 /* Навигация */
 .site-nav
-.nav-link
+.nav-link,
 .contacts {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--second-color);
 }
 .site-nav .nav-link:hover,
 .site-nav .contacts:hover,
@@ -46,10 +51,10 @@ button{
 }
 /* Герой */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--end-color);
 }
 .hero > .hero-title {
-  color: #ffffff;
+  color:var(--withe-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
@@ -58,23 +63,22 @@ button{
   text-transform: uppercase;
 }
 .hero > .btn {
-  color: #ffffff;
+  color:var(--withe-color);
   background-color: var(--hover-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  box-shadow: rgba (0 0 0 0.15);
+  box-shadow: 0px 4px 4px rgba(0 0 0 0.15);
+  border-radius: 4px;
 }
 /* Особенности */
 .features,
 .features-title {
-  font-style: 400;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+  color: var(--main-color);
 }
 .features,
 .features-content {
@@ -99,7 +103,7 @@ button{
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 .our-team,
 .team-title {
@@ -107,7 +111,7 @@ button{
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 .our-team,
 .team-content {
@@ -119,17 +123,14 @@ button{
 }
 /* Футер */
 /* Адресс */
-.address {
-  font-style: 400;
-}
 .footer .logo-color {
-  color: #ffffff;
+  color: var(--withe-color);
 }
 .footer {
-  background-color: #2f303a;
+  background-color: var(--end-color);
 }
 .address:hover {
-  color: #ffffff;
+  color: var(--withe-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -137,9 +138,9 @@ button{
 }
 
 .map-link {
-  color: #ffffff;
+  color: var(--withe-color);
 }
-.address,
+.address
 .contacts {
   color: var(--second-color);
   font-weight: 400;
@@ -147,10 +148,10 @@ button{
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.address,
+.address
 .contacts:hover {
   color: var(--hover-color);
-  color: rgba (255 255 255 0.6)
+  color: rgba(255 255 255 0.6);
 }
 /* Портфолио */
 /* Навигация */
@@ -160,7 +161,7 @@ button{
 /* Уникальный Контент */
 .portfolio,
 .btn-filter {
-  background-color: #f5f4fa;
+  background-color: var(--new-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
