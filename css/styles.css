@@ -34,7 +34,16 @@ button{
 }
 /* Навигация */
 .site-nav
-.nav-link,
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.site-nav .current {
+  color: var(--hover-color);
+}
 .contacts {
   font-weight: 500;
   font-size: 14px;
@@ -72,15 +81,14 @@ button{
   border-radius: 4px;
 }
 /* Особенности */
-.features,
 .features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--main-color);
 }
-.features,
 .features-content {
   color: var(--second-color);
   font-weight: 400;
@@ -160,18 +168,21 @@ button{
   color: var(--hover-color);
 }
 /* Уникальный Контент */
-.portfolio,
-.btn-filter {
+
+.portfolio, .btn-filter {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  border-radius: 4px;
 }
-.portfolio .btn-filter:hover {
+
+.btn-filter:hover {
+  color:  var(--withe-color);
   background-color: var(--hover-color);
 }
-.portfolio .portfolio-title {
-  font-style: 400;
+.portfolio, .portfolio-title {
+  color: var(--main-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
